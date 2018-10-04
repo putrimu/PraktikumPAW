@@ -1,0 +1,42 @@
+header{
+	border: 2px solid #000000 ;
+	margin-bottom: 30px;
+	background-color: #00abc5;
+	padding: 20px;
+}
+
+header ul{
+	list-style: none;
+	float: right;	/*logo dan menu berjauhan karna dikasih float di posisiin kanan*/
+}
+
+header ul li{		/* biar sejajar menunya */ 
+	display: inline-block;
+	margin-left: 20px;
+	color: pink;
+}
+.box-content{   /*titik untuk class */
+	display: flex;
+}
+
+.container{  
+	width: 1000px;
+	margin: 0 auto;
+}
+
+aside{
+	flex: 1;
+	border: 2px solid green;
+	padding: 20px;
+}
+
+aside h1{
+	text-transform: upperclass;
+}
+
+article{
+	flex: 2px;
+	border: 2px solid blue;
+	padding: 20px;
+	margin-left: 30px;
+}
